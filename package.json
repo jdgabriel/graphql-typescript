@@ -1,0 +1,31 @@
+{
+  "name": "graphql-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jdgabriel/graphql-typescript.git",
+  "author": "jdgabriel <jds.gabrielduarte@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only ./src/app.ts"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^8.3.10",
+    "@types/debug": "^4.1.7",
+    "@types/ws": "^8.5.3",
+    "apollo-server-core": "^3.6.7",
+    "apollo-server-express": "^3.6.7",
+    "class-validator": "^0.13.2",
+    "express": "^4.17.3",
+    "graphql": "15.3.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.7.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.3"
+  }
+}
